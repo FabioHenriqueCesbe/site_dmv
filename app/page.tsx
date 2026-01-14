@@ -148,10 +148,11 @@ export default function Home() {
         <section id="about" className="py-20 md:py-32 bg-zinc-50 dark:bg-zinc-950">
           <div className="container px-4 md:px-8 max-w-screen-2xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24 items-center">
-              <div className="relative aspect-square md:aspect-[4/3] bg-zinc-200 dark:bg-zinc-800 rounded-2xl overflow-hidden shadow-2xl">
+              <div className="relative h-[300px] md:h-[400px] w-full max-w-lg mx-auto bg-zinc-200 dark:bg-zinc-800 rounded-2xl overflow-hidden shadow-2xl">
                 <Image
                   src="/Gemini_Generated_Image_oorxu4oorxu4oorx.png"
                   alt="Sobre Nós"
+                  fill
                   className="object-cover transition-transform duration-500 hover:scale-105"
                 />
               </div>
