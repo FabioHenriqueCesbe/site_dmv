@@ -149,11 +149,12 @@ export default function Home() {
           <div className="container px-4 md:px-8 max-w-screen-2xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-24 items-center">
               <div className="relative aspect-square md:aspect-[4/3] bg-zinc-200 dark:bg-zinc-800 rounded-2xl overflow-hidden shadow-2xl">
-                {/* Image Placeholder */}
-                <div className="absolute inset-0 flex items-center justify-center text-muted-foreground">
-                  <Construction className="h-24 w-24 opacity-20" />
-                  <span className="sr-only">Imagem Sobre Nós</span>
-                </div>
+                <Image
+                  src="/Gemini_Generated_Image_oorxu4oorxu4oorx.png"
+                  alt="Sobre Nós"
+                  fill
+                  className="object-cover transition-transform duration-500 hover:scale-105"
+                />
               </div>
               <div className="flex flex-col gap-6">
                 <div className="inline-flex items-center rounded-full border px-2.5 py-0.5 w-fit text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-[#305294] text-white hover:bg-[#305294]/80">
