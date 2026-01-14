@@ -152,6 +152,7 @@ export default function Home() {
                 <Image
                   src="/Gemini_Generated_Image_oorxu4oorxu4oorx.png"
                   alt="Sobre Nós"
+                  fill
                   className="object-cover transition-transform duration-500 hover:scale-105"
                 />
               </div>
